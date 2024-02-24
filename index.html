@@ -1,21 +1,3 @@
-<!-- 
-  
-  This is the project-based Lab on the following concepts 
-  1. HTML Block elements
-  2. In line elements 
-
-
-Project description: Build a webpage on your hobbies
-
-Challenge 1: Use appropriate Block elements while building your webpage.
-
-Challenge 2: Use appropriate in line elements while building your hobbies webpage.
-
-Important note: Add comments above the tag to mention the HTML element type 
-
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,12 +8,13 @@ Important note: Add comments above the tag to mention the HTML element type
     <title>My Hobbies</title>
   </head>
   <body>
+    <section>
     <!--  div tag to insert required elements and used inline css for aligning the div tag-->
     <div style="margin-left: 15%; margin-top: 5%; height: 450px; width: 71%;">
 
         <h1 style="text-align: center;" id="name">P.Surendher Reddy</h1>
         <!-- head tag naming-->
-        <h1 style="text-align:center">My Hobbies</h1>
+        <h1 style="text-align:center" id="activity">My Hobbies</h1>
         <!--putting images in website and added attributes about the images-->
         <div style="margin-right: 20px; display: inline-block;"> <img src="surfing.jpeg" style="height: 250px;width: 250px; border-radius: 10px;" alt="surfingInternet"><p style="text-align: center;">Surfing Internet</p></div>
         <div style="margin: right 20px;display: inline-block;"> <img src="programming.jpg" style="height: 250px;width: 250px; border-radius: 10px" alt="programming"><p style="text-align: center;">Programming</p></div>
@@ -39,6 +22,20 @@ Important note: Add comments above the tag to mention the HTML element type
         <div style="margin-right: 20px; display: inline-block;"> <img src="dance.jpeg" style="height: 250px;width: 250px;border-radius: 10px" alt="dance"><p style="text-align: center;">Dance</p></div>
         <div style="margin-right: 10px; display: inline-block;"> <img src="badminton.jpeg" style="height: 250px;width: 250px;border-radius: 10px" alt="badminton"><p style="text-align: center;">Badminton</p></div>
     </div>
+
+  </section>
+
+  <section class="about">
+    <h1 style="text-align: center;">About me</h1>
+    <p style="text-align: center; font-size: large;">Iam <span style="border-radius: 10px; background-color: brown; font-size: 50px; color: white;">Surendher reddy</span>  from kalvium,I did my post graduation from vellore institute of technology andhraprdesh.
+      actually its a dual course that is betch and mtech are embeded with 5 years course offered by VIT 
+      and i mentioned my programming skills below the section.
+    </p>
+  </section>
+
+
+
+  <section>
           <!--class selector-->
     <div  class="languages"> 
       <h1 id="naming">Programming languages</h1>
@@ -50,5 +47,23 @@ Important note: Add comments above the tag to mention the HTML element type
       <button class="btn" id="js" type="button">JavaScript</button>
     </div>
     </div>
+  </section>
+  <section class="aboutYou">
+    <div class="aboutyou">
+
+      <form>
+        <label style="margin-left: 10px; margin-bottom: 20px; font-size: 50px;">About you </label>
+      <label for="name">Name</label> <input type="text" id="name"> <br>
+      <label for="phno">Ph no</label> <input type="number" id="phno"><br>
+      <label for="mail">E-mail</label> <input type="email" id="mail"><br>
+      <label for="clg">College</label> <input type="text" id="clg"><br>
+      <label for="work">Working Company</label> <input type="text" id="work"><br>
+      <label for="skill">Skills</label> <input type="text" id="skill"><br>
+      <label for="place">Place</label> <input type="text" id="place"><br>
+      
+      </form>
+   </div>
+  </section>
+
   </body>
 </html>

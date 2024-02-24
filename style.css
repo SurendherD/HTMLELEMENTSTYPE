@@ -1,32 +1,30 @@
 /* Universal selector */
-* {
-  background-color: antiquewhite;
+*{
+  background-color:aquamarine;
 }
 
 /* class selector */
-.languages {
+.languages{
   margin-left: 15%;
   margin-top: 5%;
-  height: 200px;
-  width: 71%;
+  height: 200px; 
+  width: 71%; 
 }
 
 /* grouping selector */
 
-div h1 {
+div h1{
   text-align: center;
 }
 
 /* id selector */
-#naming {
+#naming{
   margin-bottom: 4%;
 }
 
+
 /* grouping selector */
-#java,
-#python,
-#c,
-#js {
+#java,#python,#c,#js{
   text-align: center;
   font-size: 50px;
   margin-right: 5%;
@@ -35,18 +33,18 @@ div h1 {
   border: none;
 }
 
-#lang {
+#lang{
   text-align: center;
 }
 
 /* pseudo elements*/
 .btn:hover {
-  background-color: #04aa6d;
+  background-color: #04AA6D;
   color: white;
 }
 
 #naming:hover {
-  background-color: #04aa6d;
+  background-color: #04AA6D;
   color: white;
 }
 /* pseudo class*/
@@ -58,3 +56,31 @@ div h1 {
   color: rgb(176, 13, 13);
   font-variant: small-caps;
 }
+
+#activity:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.about p{
+  font-style: italic;
+}
+
+.aboutYou div{
+  margin-left: 45%;
+}
+
+#name,#clg,#work,#phno,#mail,#skill,#place{
+margin-top: 15px;
+height: 25px;
+width: 250px;
+border-radius: 10px;
+
+}
+form{
+display: flex;
+flex-direction: column;
+
+}
+
+

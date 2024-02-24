@@ -1,0 +1,60 @@
+/* Universal selector */
+* {
+  background-color: antiquewhite;
+}
+
+/* class selector */
+.languages {
+  margin-left: 15%;
+  margin-top: 5%;
+  height: 200px;
+  width: 71%;
+}
+
+/* grouping selector */
+
+div h1 {
+  text-align: center;
+}
+
+/* id selector */
+#naming {
+  margin-bottom: 4%;
+}
+
+/* grouping selector */
+#java,
+#python,
+#c,
+#js {
+  text-align: center;
+  font-size: 50px;
+  margin-right: 5%;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+#lang {
+  text-align: center;
+}
+
+/* pseudo elements*/
+.btn:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+#naming:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+/* pseudo class*/
+#name::before {
+  content: url(/favicon.ico);
+}
+
+#name::first-line {
+  color: rgb(176, 13, 13);
+  font-variant: small-caps;
+}

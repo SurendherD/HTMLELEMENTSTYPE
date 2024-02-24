@@ -1,0 +1,54 @@
+<!-- 
+  
+  This is the project-based Lab on the following concepts 
+  1. HTML Block elements
+  2. In line elements 
+
+
+Project description: Build a webpage on your hobbies
+
+Challenge 1: Use appropriate Block elements while building your webpage.
+
+Challenge 2: Use appropriate in line elements while building your hobbies webpage.
+
+Important note: Add comments above the tag to mention the HTML element type 
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Hobbies</title>
+  </head>
+  <body>
+    <!--  div tag to insert required elements and used inline css for aligning the div tag-->
+    <div style="margin-left: 15%; margin-top: 5%; height: 450px; width: 71%;">
+
+        <h1 style="text-align: center;" id="name">P.Surendher Reddy</h1>
+        <!-- head tag naming-->
+        <h1 style="text-align:center">My Hobbies</h1>
+        <!--putting images in website and added attributes about the images-->
+        <div style="margin-right: 20px; display: inline-block;"> <img src="surfing.jpeg" style="height: 250px;width: 250px; border-radius: 10px;" alt="surfingInternet"><p style="text-align: center;">Surfing Internet</p></div>
+        <div style="margin: right 20px;display: inline-block;"> <img src="programming.jpg" style="height: 250px;width: 250px; border-radius: 10px" alt="programming"><p style="text-align: center;">Programming</p></div>
+        <div style="margin-right: 20px; display: inline-block;"> <img src="cooking.jpeg" style="height: 250px;width: 250px;border-radius: 10px" alt="chef"><p style="text-align: center;">Cooking</p></div>
+        <div style="margin-right: 20px; display: inline-block;"> <img src="dance.jpeg" style="height: 250px;width: 250px;border-radius: 10px" alt="dance"><p style="text-align: center;">Dance</p></div>
+        <div style="margin-right: 10px; display: inline-block;"> <img src="badminton.jpeg" style="height: 250px;width: 250px;border-radius: 10px" alt="badminton"><p style="text-align: center;">Badminton</p></div>
+    </div>
+          <!--class selector-->
+    <div  class="languages"> 
+      <h1 id="naming">Programming languages</h1>
+      <div id="lang">
+        <!--id selector-->
+      <button class="btn" id="java" type="button">Java</button>
+      <button class="btn" id="python" type="button">Python</button>
+      <button class="btn" id="c" type="button">C++</button>
+      <button class="btn" id="js" type="button">JavaScript</button>
+    </div>
+    </div>
+  </body>
+</html>
